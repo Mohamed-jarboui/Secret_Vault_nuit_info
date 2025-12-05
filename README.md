@@ -126,4 +126,4 @@ This project was created for the Nuit de l'Info 2024 Challenge.
 
 ## 👥 Team
 
-[Your Team Name]
+[TEAM SIN_SIRO]
