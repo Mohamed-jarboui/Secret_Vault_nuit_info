@@ -1,0 +1,30 @@
+content = """
+Document 1: Introduction to AI
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating machines capable of performing tasks that typically require human intelligence. AI can be applied in various domains, such as healthcare, finance, and robotics.
+
+Document 2: Machine Learning Basics
+Machine Learning (ML) is a subset of AI where machines learn patterns from data. Common algorithms include linear regression, decision trees, and neural networks.
+
+Document 3: Natural Language Processing
+Natural Language Processing (NLP) enables computers to understand and interact with human language. Examples include chatbots, language translation, and sentiment analysis.
+
+Document 4: Computer Vision
+Computer Vision is the field of AI that trains computers to interpret and understand visual information from the world, such as images or videos. Applications include facial recognition, object detection, and autonomous vehicles.
+
+Document 5: Deep Learning
+Deep Learning is a type of machine learning that uses neural networks with many layers to model complex patterns in data. It's particularly effective for tasks like image and speech recognition.
+
+Document 6: AI Ethics
+AI Ethics examines the moral implications of AI, including bias, fairness, privacy, and accountability. It is crucial for responsible AI deployment.
+
+Document 7: TinyLlama Search Engine
+TinyLlama is a lightweight search engine designed to index small text datasets and provide semantic search using local LLM embeddings. It is ideal for testing and educational purposes.
+
+Document 8: Testing Your Search
+When testing a search engine like TinyLlama, include diverse topics, short and long paragraphs, and some overlapping keywords. This will help evaluate search relevance.
+"""
+
+with open("test_documents.txt", "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("test_documents.txt created successfully!")

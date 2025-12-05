@@ -1,0 +1,30 @@
+# FastAPI
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Configuration
+pydantic-settings
+python-dotenv
+email-validator
+groq
+PyPDF2
+pdf2image
+pytesseract
+Pillow
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# HTTP Client
+requests
+httpx
+
+# Utilities
+python-dateutil
